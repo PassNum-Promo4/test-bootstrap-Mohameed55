@@ -1,60 +1,95 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
   <meta charset="UTF-8">
-  <title>Bootstrap</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <title> Bootstrap </title>
 </head>
 <body>
-  <img src="http://fakeimg.pl/150/" alt="fakeimage">
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, 
-    rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id 
-    lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu 
-    orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat. 
-    Nam elit massa, finibus vitae gravida at, lobortis eget tellus. 
-  </p>
-  <button type="button">Oui</button>
-  <button type="button">Non</button>
-  <h1>Lorem Ipsum</h1>
-  <p>Aenean eget lorem ac mi tristique volutpat. 
-  Nam elit massa, finibus vitae gravida at, lobortis eget tellus.</p>
-  <a href="#">Super</a>
-  <img src="http://fakeimg.pl/300/" alt="fakeimg">
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, 
-    rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id 
-    lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu 
-    orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat. 
-    Nam elit massa, finibus vitae gravida at, lobortis eget tellus. 
-  </p>
-  <img src="http://fakeimg.pl/300/" alt="fakeimg">
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, 
-    rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id 
-    lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu 
-    orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat. 
-    Nam elit massa, finibus vitae gravida at, lobortis eget tellus. 
-  </p>
-  <img src="http://fakeimg.pl/300/" alt="fakeimg">
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, 
-    rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id 
-    lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu 
-    orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat. 
-    Nam elit massa, finibus vitae gravida at, lobortis eget tellus. 
-  </p>
-  <img src="http://fakeimg.pl/300/" alt="fakeimg">
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus, 
-    rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id 
-    lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu 
-    orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat. 
-    Nam elit massa, finibus vitae gravida at, lobortis eget tellus. 
-  </p>
+  <div class="col-4 align-self-start bg-dark text-white"> <!-- mettre le premier bloc avec un arriére plan noir en debut de la page -->
+    <img src="http://fakeimg.pl/150/" alt="fakeimage" class="rounded-circle">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus,
+      rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id
+      lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu
+      orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat.
+      Nam elit massa, finibus vitae gravida at, lobortis eget tellus.
+    </p>
+    <button type="button" class="btn btn-success">Oui</button>
+    <button type="button" class="btn btn-danger">Non</button>
+
+  </div>
+</div>
+</section>
+
+
+<div class="row justify-content-end">
+  <div class="col-lg-8 col-md-8">
+    <header>
+      <h1>Lorem Ipsum</h1>
+      <p>Aenean eget lorem ac mi tristique volutpat.
+        Nam elit massa, finibus vitae gravida at, lobortis eget tellus.</p>
+        <a class="btn btn-primary" href="#" role="button"> Super </a>
+      </header>
+    </div>
+  </div>
+
+
+  <div class="row justify-content-end"> <!-- une section pour les 4 blocs avec un marging entre eux -->
+    <div class="col-lg-4 col-md-8"> <!-- ecran pc largeur de 4 , pour tablette 8 -->
+      <img src="http://fakeimg.pl/300/" alt="fakeimg">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus,
+        rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id
+        lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu
+        orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat.
+        Nam elit massa, finibus vitae gravida at, lobortis eget tellus.
+      </p>
+    </div>
+
+    <div class="col-lg-4 col-md-8"> <!-- ecran pc largeur de 4 , pour tablette 8 -->
+      <img src="http://fakeimg.pl/300/" alt="fakeimg">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus,
+        rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id
+        lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu
+        orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat.
+        Nam elit massa, finibus vitae gravida at, lobortis eget tellus.
+      </p>
+    </div>
+
+    <div class="w-100"></div> <!-- une balise qui divise les blocs pour faire una carré 2 2 -->
+    <div class="col-lg-4 col-md-8">
+      <img src="http://fakeimg.pl/300/" alt="fakeimg">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus,
+        rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id
+        lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu
+        orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat.
+        Nam elit massa, finibus vitae gravida at, lobortis eget tellus.
+      </p>
+    </div>
+
+    <div class="col-lg-4 col-md-8"> <!-- ecran pc largeur de 4 , pour tablette 8 -->
+      <img src="http://fakeimg.pl/300/" alt="fakeimg">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus,
+        rhoncus sit amet magna nec, dignissim euismod orci. Suspendisse id
+        lacus rhoncus, dapibus mauris et, ornare erat. Phasellus egestas eu
+        orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat.
+        Nam elit massa, finibus vitae gravida at, lobortis eget tellus.
+      </p>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
 </body>
 </html>
