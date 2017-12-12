@@ -8,7 +8,10 @@
 <body class="container-fluid">
   <div class="row"> <!-- diviser la page en deux partie -->
   <div class="col-lg-4 bg-dark text-white"> <!-- mettre le premier bloc avec un arriére plan noir en debut de la page -->
-    <img src="http://fakeimg.pl/150/" alt="fakeimage" class="rounded-circle">
+    <div class="row justify-content-center mt-4">
+      <img src="http://fakeimg.pl/150/" alt="fakeimage" class="rounded-circle">
+    </div>
+    <div class="m-5">
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus,
@@ -17,13 +20,16 @@
       orci sit amet pulvinar. Aenean eget lorem ac mi tristique volutpat.
       Nam elit massa, finibus vitae gravida at, lobortis eget tellus.
     </p>
+  </div>
+    <div class=" row justify-content-around">
     <button type="button" class="btn btn-success">Oui</button>
     <button type="button" class="btn btn-danger">Non</button>
+    </div>
   </div>
 
   <div class="row col lg-6"> <!-- une section pour les 4 blocs avec un marging entre eux -->
-    <div class="row m-5">
-      <div class="col-lg-6 col-md-8">
+    <div class="row m-5 ">
+      <div class="col-lg-12 col-md-8">
         <header>
           <h1>Lorem Ipsum</h1>
           <p>Aenean eget lorem ac mi tristique volutpat.
@@ -32,8 +38,9 @@
           </header>
         </div>
       </div>
+      <div class="row m-5">
     <div class="col-lg-6 col-md-8"> <!-- ecran pc largeur de 4 , pour tablette 8 -->
-      <img src="http://fakeimg.pl/300/" alt="fakeimg">
+      <img src="http://fakeimg.pl/300/" alt="fakeimg" class="mb-5 img-fluid align-self-center">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus,
@@ -45,7 +52,7 @@
     </div>
 
     <div class="col-lg-6 col-md-8"> <!-- ecran pc largeur de 4 , pour tablette 8 -->
-      <img src="http://fakeimg.pl/300/" alt="fakeimg">
+      <img src="http://fakeimg.pl/300/" alt="fakeimg" class="mb-5 img-fluid align-self-center">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus,
@@ -58,7 +65,7 @@
 
     <div class="w-100"></div> <!-- une balise qui divise les blocs pour faire una carré 2 2 -->
     <div class="col-lg-6 col-md-8">
-      <img src="http://fakeimg.pl/300/" alt="fakeimg">
+      <img src="http://fakeimg.pl/300/" alt="fakeimg" class="mb-5 img-fluid align-self-center">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus,
@@ -70,7 +77,7 @@
     </div>
 
     <div class="col-lg-6 col-md-8"> <!-- ecran pc largeur de 4 , pour tablette 8 -->
-      <img src="http://fakeimg.pl/300/" alt="fakeimg">
+      <img src="http://fakeimg.pl/300/" alt="fakeimg" class="mb-5 img-fluid align-self-center">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Duis id elementum risus, nec suscipit lectus. Aliquam metus lacus,
@@ -81,6 +88,7 @@
       </p>
     </div>
   </div>
+</div>
 </div>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
