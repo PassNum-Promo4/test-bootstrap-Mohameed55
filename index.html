@@ -5,8 +5,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <title> Bootstrap </title>
 </head>
-<body>
-  <div class="col-4 align-self-start bg-dark text-white"> <!-- mettre le premier bloc avec un arriére plan noir en debut de la page -->
+<body class="container-fluid">
+  <div class="row"> <!-- diviser la page en deux partie -->
+  <div class="col-lg-4 bg-dark text-white"> <!-- mettre le premier bloc avec un arriére plan noir en debut de la page -->
     <img src="http://fakeimg.pl/150/" alt="fakeimage" class="rounded-circle">
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -18,26 +19,20 @@
     </p>
     <button type="button" class="btn btn-success">Oui</button>
     <button type="button" class="btn btn-danger">Non</button>
-
-  </div>
-</div>
-</section>
-
-
-<div class="row justify-content-end">
-  <div class="col-lg-8 col-md-8">
-    <header>
-      <h1>Lorem Ipsum</h1>
-      <p>Aenean eget lorem ac mi tristique volutpat.
-        Nam elit massa, finibus vitae gravida at, lobortis eget tellus.</p>
-        <a class="btn btn-primary" href="#" role="button"> Super </a>
-      </header>
-    </div>
   </div>
 
-
-  <div class="row justify-content-end"> <!-- une section pour les 4 blocs avec un marging entre eux -->
-    <div class="col-lg-4 col-md-8"> <!-- ecran pc largeur de 4 , pour tablette 8 -->
+  <div class="row col lg-6"> <!-- une section pour les 4 blocs avec un marging entre eux -->
+    <div class="row m-5">
+      <div class="col-lg-6 col-md-8">
+        <header>
+          <h1>Lorem Ipsum</h1>
+          <p>Aenean eget lorem ac mi tristique volutpat.
+            Nam elit massa, finibus vitae gravida at, lobortis eget tellus.</p>
+            <a class="btn btn-primary" href="#" role="button"> Super </a>
+          </header>
+        </div>
+      </div>
+    <div class="col-lg-6 col-md-8"> <!-- ecran pc largeur de 4 , pour tablette 8 -->
       <img src="http://fakeimg.pl/300/" alt="fakeimg">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -49,7 +44,7 @@
       </p>
     </div>
 
-    <div class="col-lg-4 col-md-8"> <!-- ecran pc largeur de 4 , pour tablette 8 -->
+    <div class="col-lg-6 col-md-8"> <!-- ecran pc largeur de 4 , pour tablette 8 -->
       <img src="http://fakeimg.pl/300/" alt="fakeimg">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -62,7 +57,7 @@
     </div>
 
     <div class="w-100"></div> <!-- une balise qui divise les blocs pour faire una carré 2 2 -->
-    <div class="col-lg-4 col-md-8">
+    <div class="col-lg-6 col-md-8">
       <img src="http://fakeimg.pl/300/" alt="fakeimg">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -74,7 +69,7 @@
       </p>
     </div>
 
-    <div class="col-lg-4 col-md-8"> <!-- ecran pc largeur de 4 , pour tablette 8 -->
+    <div class="col-lg-6 col-md-8"> <!-- ecran pc largeur de 4 , pour tablette 8 -->
       <img src="http://fakeimg.pl/300/" alt="fakeimg">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -86,6 +81,7 @@
       </p>
     </div>
   </div>
+</div>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
